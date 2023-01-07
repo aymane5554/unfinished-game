@@ -475,7 +475,7 @@ while True :
             if event.key == K_a :
                 player.moving_left = False
                 player.horizantol_mvmnt = 0
-        if event.type == MOUSEBUTTONUP : 
+        if event.type == MOUSEBUTTONDOWN : 
             if game.state == "survival_mode" :
                 b = Bullets()
                 b.angle(pygame.mouse.get_pos())
